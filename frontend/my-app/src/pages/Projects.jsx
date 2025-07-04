@@ -36,28 +36,29 @@ function Projects() {
   return (
     <div className="projects-container">
       <div className="page-container">
-        <div className="page-header">
-          <Link to="/" className="back-button">← Back to Home</Link>
-          <h1>My Projects</h1>
-        </div>
-        
-        <div className="projects-grid">
-          {projects.map((project) => (
-            <div key={project.id} className="project-item">
-              <div className="project-image">
-                <span>{project.image}</span>
-              </div>
-              <div className="project-info">
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
-                <div className="project-technologies">
-                  {project.technologies.map((tech, index) => (
-                    <span key={index} className="tech-tag">{tech}</span>
-                  ))}
+        <div className="projects-content">
+          <div className="page-header">
+            <Link to="/" className="back-button">← Back to Home</Link>
+            <h1>My Projects</h1>
+          </div>
+          <div className="projects-grid">
+            {projects.map((project) => (
+              <div key={project.id} className="project-item">
+                <div className="project-image">
+                  <span>{project.image}</span>
+                </div>
+                <div className="project-info">
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                  <div className="project-technologies">
+                    {project.technologies.map((tech, index) => (
+                      <span key={index} className="tech-tag">{tech}</span>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>
