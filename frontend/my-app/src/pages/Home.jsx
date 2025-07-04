@@ -25,6 +25,7 @@ function Home() {
             <div className="content-section">
               {/* Main heading */}
               <h1 className="main-heading">Welcome to PhiloTech</h1>
+              <h2 className="sub-heading">Built with purpose. Led by curiosity.</h2>
               
               {/* Navigation buttons */}
               <div className="nav-buttons">
