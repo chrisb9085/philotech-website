@@ -11,6 +11,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.6;
+  background: linear-gradient(135deg, #ff8c42 0%, #ffd700 100%);
+  min-height: 100vh;
 }
 
 .App {
@@ -38,4 +40,37 @@ input, textarea {
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+}
+
+/* Container for better screen utilization */
+.page-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Professional section styling */
+.section {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 0;
+  margin: 15px 0;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #ff8c42;
+}
+
+/* Tropical color variables */
+:root {
+  --primary-orange: #ff8c42;
+  --secondary-orange: #ff6b35;
+  --accent-yellow: #ffd700;
+  --warm-yellow: #ffb347;
+  --dark-orange: #e67e22;
+  --text-dark: #2c3e50;
+  --text-light: #34495e;
+  --white: #ffffff;
 } 

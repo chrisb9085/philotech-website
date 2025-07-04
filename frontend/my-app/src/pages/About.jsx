@@ -4,14 +4,14 @@ import './About.css';
 function About() {
   return (
     <div className="about-container">
-      <div className="about-content">
+      <div className="page-container">
         <div className="page-header">
           <Link to="/" className="back-button">← Back to Home</Link>
           <h1>About Me</h1>
         </div>
         
         <div className="about-sections">
-          <div className="about-section">
+          <div className="section">
             <h2>Background</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
@@ -25,7 +25,7 @@ function About() {
             </p>
           </div>
           
-          <div className="about-section">
+          <div className="section">
             <h2>Skills</h2>
             <div className="skills-grid">
               <div className="skill-item">JavaScript</div>
@@ -37,7 +37,7 @@ function About() {
             </div>
           </div>
           
-          <div className="about-section">
+          <div className="section">
             <h2>Experience</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 

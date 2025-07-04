@@ -4,14 +4,14 @@ import './Contact.css';
 function Contact() {
   return (
     <div className="contact-container">
-      <div className="contact-content">
+      <div className="page-container">
         <div className="page-header">
           <Link to="/" className="back-button">← Back to Home</Link>
           <h1>Contact Me</h1>
         </div>
         
         <div className="contact-sections">
-          <div className="contact-info">
+          <div className="section contact-info">
             <h2>Get In Touch</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
@@ -35,7 +35,7 @@ function Contact() {
             </div>
           </div>
           
-          <div className="contact-form">
+          <div className="section contact-form">
             <h2>Send a Message</h2>
             <form>
               <div className="form-group">

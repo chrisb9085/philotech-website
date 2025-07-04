@@ -35,7 +35,7 @@ function Projects() {
 
   return (
     <div className="projects-container">
-      <div className="projects-content">
+      <div className="page-container">
         <div className="page-header">
           <Link to="/" className="back-button">← Back to Home</Link>
           <h1>My Projects</h1>
@@ -43,7 +43,7 @@ function Projects() {
         
         <div className="projects-grid">
           {projects.map((project) => (
-            <div key={project.id} className="project-card">
+            <div key={project.id} className="project-item">
               <div className="project-image">
                 <span>{project.image}</span>
               </div>
