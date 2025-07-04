@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Projects.css';
+import '../styling/Projects.css';
 
 function Projects() {
   const projects = [

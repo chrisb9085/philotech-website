@@ -1,6 +1,6 @@
 .contact-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #ff8c42 0%, #ffd700 100%);
+  background: white;
 }
 
 .contact-content {
@@ -111,8 +111,7 @@
 }
 
 .contact-form {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
+  background: white;
   padding: 30px;
   border-radius: 0;
   border-left: 5px solid #ff8c42;

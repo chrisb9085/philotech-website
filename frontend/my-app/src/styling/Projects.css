@@ -1,6 +1,6 @@
 .projects-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #ff8c42 0%, #ffd700 100%);
+  background: white;
 }
 
 .page-header {
@@ -51,8 +51,7 @@
 }
 
 .project-item {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
+  background: white;
   border-radius: 0;
   overflow: hidden;
   transition: all 0.3s ease;
