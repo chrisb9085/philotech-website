@@ -47,9 +47,10 @@ function Home() {
             <h2 className="summary-heading">Summary</h2>
             <div className="summary-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Philotech is a student-led tech startup building AI-driven tools that solve real problems. 
+              Founded with a focus on learning through execution, Philotech serves as a creative lab for 
+              developing smart, scalable software—from MVPs to polished products. We turn curiosity into code, 
+              experimenting with emerging tech while staying grounded in practical use cases.
               </p>
               <p>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
