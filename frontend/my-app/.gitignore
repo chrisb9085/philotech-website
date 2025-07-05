@@ -29,3 +29,11 @@ cursor.json
 # Optional: lockfiles (ignore only if your team doesn't enforce them)
 # package-lock.json
 # yarn.lock
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.sqlite3
