@@ -5,30 +5,23 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      technologies: ["React", "Node.js", "MongoDB"],
+      title: "RunwAI",
+      description: "RunwAI is a personal AI stylist that uses images of your own clothing to generate stylish outfits based on inputs like weather, occasion and color preference. Initially started as an Init BUILD project, RunwAI has since evolved into a fully launched site.",
+      technologies: ["React", "Flask", "Supabase", "OpenAI's CLIP"],
       image: "Image"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      technologies: ["Vue.js", "Express", "PostgreSQL"],
+      title: "ProfilePilot",
+      description: "ProfilePilot is a platform that allows users to sync their professional profiles with their resumes. ProfilePilot scans a user's resume and checks for any new or updated information, and then updates the user's profile accordingly. Then, using web automation technology, ProfilePilot automatically updates professional profiles on sites like LinkedIn, Handshake, Indeed, and more.",
+      technologies: ["React", "Flask", "Supabase", "Selenium", "OpenAI's GPT-4o"],
       image: "Image"
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      technologies: ["JavaScript", "API", "CSS"],
-      image: "Image"
-    },
-    {
-      id: 4,
-      title: "Portfolio Website",
-      description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      technologies: ["React", "Vite", "CSS"],
+      title: "Neural Network from Scratch",
+      description: "This project is a neural network that is built from scratch using only numpy. It is a simple feedforward neural network that is able to learn the XOR function.",
+      technologies: ["Python", "Numpy"],
       image: "Image"
     }
   ];
