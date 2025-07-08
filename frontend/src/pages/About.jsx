@@ -45,11 +45,49 @@ function About() {
           
           <div className="section">
             <h2>Experience</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+            
+            <div className="experience-category">
+              <h3>Professional Experience</h3>
+              <div className="experience-item">
+                <h4>Founder & CEO - PhiloTech</h4>
+                <p className="experience-period">2024 - Present</p>
+                <p>Leading the development of a professional portfolio platform and pursuing entrepreneurial ventures in technology innovation.</p>
+              </div>
+              <div className="experience-item">
+                <h4> Qualitative Analyst (Intern) - TechPhare Dynamic Solutions</h4>
+                
+              </div>
+            </div>
+
+            <div className="experience-category">
+              <h3>Academic Experience</h3>
+              <div className="experience-item">
+                <h4>Computer Science Student - Florida International University</h4>
+                <p className="experience-period">2023 - Present</p>
+                <p>Pursuing a degree in Computer Science with focus on AI/ML, Quantum Computing, and software development.</p>
+              </div>
+            </div>
+
+            <div className="experience-category">
+              <h3>Relevant Coursework</h3>
+              <div className="coursework-grid">
+                <div className="course-item">Data Structures & Algorithms</div>
+                <div className="course-item">Object-Oriented Programming</div>
+                <div className="course-item">Database Systems</div>
+                <div className="course-item">Software Engineering</div>
+                <div className="course-item">Computer Architecture</div>
+                <div className="course-item">Discrete Mathematics</div>
+              </div>
+            </div>
+
+            <div className="experience-category">
+              <h3>Leadership & Involvement</h3>
+              <div className="experience-item">
+                <h4>Student Organizations & Clubs</h4>
+                <p className="experience-period">2023 - Present</p>
+                <p>Active participation in CS clubs, hackathons, and technology-focused student organizations at FIU.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
