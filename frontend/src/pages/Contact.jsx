@@ -14,23 +14,17 @@ function Contact() {
           <div className="section contact-info">
             <h2>Get In Touch</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              I'm always excited to connect with fellow developers, potential collaborators, or anyone interested in technology and innovation. Whether you have a project idea, want to discuss opportunities, or just want to say hello, I'd love to hear from you. Feel free to reach out through my email below or use the contact form.
             </p>
             
             <div className="contact-details">
               <div className="contact-item">
                 <h3>Email</h3>
-                <p>your.email@example.com</p>
-              </div>
-              <div className="contact-item">
-                <h3>Phone</h3>
-                <p>+1 (555) 123-4567</p>
+                <p>contact@philotech.us.com</p>
               </div>
               <div className="contact-item">
                 <h3>Location</h3>
-                <p>City, State, Country</p>
+                <p>Miami, FL, USA</p>
               </div>
             </div>
           </div>

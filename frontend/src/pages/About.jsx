@@ -42,6 +42,7 @@ function About() {
               <div className="skill-item">Automation Testing</div>
             </div>
           </div>
+
           
           <div className="section">
             <h2>Experience</h2>
@@ -50,12 +51,13 @@ function About() {
               <h3>Professional Experience</h3>
               <div className="experience-item">
                 <h4>Founder & CEO - PhiloTech</h4>
-                <p className="experience-period">2024 - Present</p>
-                <p>Leading the development of a professional portfolio platform and pursuing entrepreneurial ventures in technology innovation.</p>
+                <p className="experience-period">August 2025 - Present</p>
+                <p>Leading the development of a professional portfolio platform and pursuing entrepreneurial ventures in technological innovation.</p>
               </div>
               <div className="experience-item">
-                <h4> Qualitative Analyst (Intern) - TechPhare Dynamic Solutions</h4>
-                
+                <h4> QA Tester (Intern) - TechPhare Dynamic Solutions</h4>
+                <p className="experience-period">May 2025 - Present</p>
+                <p>Testing and debugging a mobile application using Appium and Jira Software to ensure they meet quality standards and user requirements.</p>
               </div>
             </div>
 
@@ -63,8 +65,8 @@ function About() {
               <h3>Academic Experience</h3>
               <div className="experience-item">
                 <h4>Computer Science Student - Florida International University</h4>
-                <p className="experience-period">2023 - Present</p>
-                <p>Pursuing a degree in Computer Science with focus on AI/ML, Quantum Computing, and software development.</p>
+                <p className="experience-period">Aug 2024 - Present</p>
+                <p>Pursuing a degree in Computer Science with a bias toward AI/ML, Quantum Computing, and software development.</p>
               </div>
             </div>
 
@@ -72,9 +74,8 @@ function About() {
               <h3>Relevant Coursework</h3>
               <div className="coursework-grid">
                 <div className="course-item">Data Structures & Algorithms</div>
-                <div className="course-item">Object-Oriented Programming</div>
-                <div className="course-item">Database Systems</div>
-                <div className="course-item">Software Engineering</div>
+                <div className="course-item">Programming I & II</div>
+                <div className="course-item">Calculus I & II</div>
                 <div className="course-item">Computer Architecture</div>
                 <div className="course-item">Discrete Mathematics</div>
               </div>
@@ -83,9 +84,9 @@ function About() {
             <div className="experience-category">
               <h3>Leadership & Involvement</h3>
               <div className="experience-item">
-                <h4>Student Organizations & Clubs</h4>
-                <p className="experience-period">2023 - Present</p>
-                <p>Active participation in CS clubs, hackathons, and technology-focused student organizations at FIU.</p>
+                <h4>FIU Student Ambassador</h4>
+                <p className="experience-period">August 2024 - Present</p>
+                <p>Representing and providing tours to FIU's VIPs, as well as collaborating with other organizations to support university efforts.</p>
               </div>
             </div>
           </div>
