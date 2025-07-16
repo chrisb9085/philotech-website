@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import '../styling/Home.css';
+import Portrait2 from '../assets/images/Portrait2.jpg';
 
 function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -17,7 +18,11 @@ function Home() {
             {/* Left side - Large photo */}
             <div className="photo-section">
               <div className="photo-placeholder">
-                <span>Your Photo Here</span>
+                <img 
+                  src={Portrait2} 
+                  alt="Portrait " 
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '5px' }}
+                />
               </div>
             </div>
             
@@ -53,9 +58,9 @@ function Home() {
               experimenting with emerging tech while staying grounded in practical use cases.
               </p>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-                in culpa qui officia deserunt mollit anim id est laborum.
+              Interested in collaborating or learning more? 
+              Explore our projects or get in touch to see how we can work together 
+              to build something impactful.
               </p>
             </div>
           </div>

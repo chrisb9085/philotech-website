@@ -39,21 +39,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 .photo-placeholder {
   min-width: 500px;
   max-width: 700px;
-  height: 600px;
-  background: #f8f9fa;
-  border: 3px dashed #ff8c42;
+  height: 700px;
+  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ff8c42;
-  font-size: 20px;
-  font-weight: 600;
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -61,8 +57,6 @@
 }
 
 .photo-placeholder:hover {
-  border-color: #ff6b35;
-  color: #ff6b35;
   transform: scale(1.02);
 }
 

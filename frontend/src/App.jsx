@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <head>
-        <title>Philotech</title>
+        <title>Welcome to Philotech!</title>
         <meta name="description" content="Philotech is a portfolio website for Philo Tech, a technology company that specializes in software development and consulting." />
         <meta name="keywords" content="Philotech, Philo Tech, software development, consulting, portfolio" />
         <meta name="author" content="Philo Tech" />
