@@ -27,5 +27,5 @@ cursor.json
 *.code-workspace
 
 # Node modules
-node_modules/
+frontend/node_modules/
 
