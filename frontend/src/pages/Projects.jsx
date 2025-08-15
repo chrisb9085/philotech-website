@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../styling/Projects.css';
+import runwai from '../assets/runwai.png';
+
 
 function Projects() {
   const projects = [
@@ -8,7 +10,7 @@ function Projects() {
       title: "RunwAI",
       description: "RunwAI is a personal AI stylist that uses images of your own clothing to generate stylish outfits based on inputs like weather, occasion and color preference. Initially started as an Init BUILD project, RunwAI has since evolved into a fully launched site.",
       technologies: ["React", "Flask", "Supabase", "OpenAI's CLIP"],
-      image: "Image"
+      image: runwai
     },
     {
       id: 2,
