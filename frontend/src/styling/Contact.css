@@ -151,67 +151,49 @@
   border-radius: 0;
   border-left: 5px solid #ff8c42;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-.form-group {
-  margin-bottom: 20px;
+.contact-form p {
+  color: #34495e;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 30px;
 }
 
-.form-group label {
-  display: block;
-  color: #2c3e50;
-  font-weight: 600;
-  margin-bottom: 8px;
-  font-size: 0.95rem;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 12px 15px;
-  border: 2px solid rgba(255, 140, 66, 0.3);
-  border-radius: 6px;
-  font-size: 0.95rem;
-  transition: all 0.3s ease;
-  box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: #ff8c42;
-  box-shadow: 0 0 0 3px rgba(255, 140, 66, 0.1);
-  background: white;
-}
-
-.form-group textarea {
-  resize: vertical;
-  min-height: 100px;
-}
-
-.submit-button {
-  width: 100%;
-  padding: 15px 25px;
+.mailto-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 35px;
   background: linear-gradient(135deg, #ff8c42, #ff6b35);
   color: white;
-  border: none;
-  border-radius: 6px;
+  text-decoration: none;
+  border-radius: 8px;
   font-weight: 600;
-  font-size: 1rem;
-  cursor: pointer;
+  font-size: 1.1rem;
   transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  min-width: 200px;
+  justify-content: center;
   box-shadow: 0 4px 15px rgba(255, 140, 66, 0.3);
 }
 
-.submit-button:hover {
-  transform: translateY(-2px);
+.mailto-button:hover {
+  transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(255, 140, 66, 0.4);
+  color: white;
+  text-decoration: none;
   background: linear-gradient(135deg, #ff6b35, #e67e22);
 }
 
-.submit-button:active {
-  transform: translateY(0);
+.mailto-button:active {
+  transform: translateY(-1px);
+}
+
+.mailto-button i {
+  font-size: 1.2rem;
 }
 
 /* Responsive design */

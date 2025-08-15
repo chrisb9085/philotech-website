@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../styling/Projects.css';
 import runwai from '../assets/images/runwai_logo.png';
+import nnfs from '../assets/images/nn-logo1.jpg';
 
 
 function Projects() {
@@ -17,7 +18,7 @@ function Projects() {
       title: "Neural Network from Scratch",
       description: "This project is a neural network that is built from scratch using only numpy. It is a simple feedforward neural network that is able to learn the XOR function.",
       technologies: ["Python", "Numpy"],
-      image: "Image"
+      image: nnfs
     }
     /*
       id: 3,
