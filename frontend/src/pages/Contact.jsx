@@ -45,7 +45,7 @@ function Contact() {
           <div className="section contact-form">
             <h2>Get In Touch</h2>
             <p>
-              Ready to start a conversation? Click the button below to send me an email directly from your email application.
+              Ready to start a conversation? Click the button below to send me an email directly.
             </p>
             <a href="mailto:contact.philotech@gmail.com" className="mailto-button">
               <i className="fas fa-envelope"></i>
