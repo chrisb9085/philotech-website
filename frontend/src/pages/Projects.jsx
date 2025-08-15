@@ -14,18 +14,18 @@ function Projects() {
     },
     {
       id: 2,
-      title: "ProfilePilot",
-      description: "ProfilePilot is a platform that allows users to sync their professional profiles with their resumes. ProfilePilot scans a user's resume and checks for any new or updated information, and then updates the user's profile accordingly. Then, using web automation technology, ProfilePilot automatically updates professional profiles on sites like LinkedIn, Handshake, Indeed, and more.",
-      technologies: ["React", "Flask", "Supabase", "Selenium", "OpenAI's GPT-4o"],
-      image: "Image"
-    },
-    {
-      id: 3,
       title: "Neural Network from Scratch",
       description: "This project is a neural network that is built from scratch using only numpy. It is a simple feedforward neural network that is able to learn the XOR function.",
       technologies: ["Python", "Numpy"],
       image: "Image"
     }
+    /*
+      id: 3,
+      title: "ProfilePilot",
+      description: "ProfilePilot is a platform that allows users to sync their professional profiles with their resumes. ProfilePilot scans a user's resume and checks for any new or updated information, and then updates the user's profile accordingly. Then, using web automation technology, ProfilePilot automatically updates professional profiles on sites like LinkedIn, Handshake, Indeed, and more.",
+      technologies: ["React", "Flask", "Supabase", "Selenium", "OpenAI's GPT-4o"],
+      image: "Image"
+    */
   ];
 
   return (
