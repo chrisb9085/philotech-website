@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../styling/Projects.css';
-import runwai from '../assets/runwai.png';
+import runwai from '../assets/images/runwai_logo.png';
 
 
 function Projects() {
@@ -40,7 +40,11 @@ function Projects() {
             {projects.map((project) => (
               <div key={project.id} className="project-item">
                 <div className="project-image">
-                  <span>{project.image}</span>
+                  {project.image === "Image" ? (
+                    <span>{project.image}</span>
+                  ) : (
+                    <img src={project.image} alt={project.title} />
+                  )}
                 </div>
                 <div className="project-info">
                   <h3>{project.title}</h3>

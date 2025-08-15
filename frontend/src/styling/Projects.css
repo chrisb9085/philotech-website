@@ -67,21 +67,23 @@
 
 .project-item {
   background: white;
-  border-radius: 0;
+  border-radius: 12px;
   overflow: hidden;
   transition: all 0.3s ease;
   border-left: 5px solid #ff8c42;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 140, 66, 0.2);
 }
 
 .project-item:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-color: rgba(255, 140, 66, 0.4);
 }
 
 .project-image {
   height: 200px;
-  background: rgba(255, 140, 66, 0.1);
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,6 +91,31 @@
   color: #ff8c42;
   font-size: 16px;
   font-weight: 600;
+  overflow: visible;
+  position: relative;
+}
+
+.project-image img {
+  width: 175px;
+  height: 175px;
+  border-radius: 12px;
+  object-fit: contain;
+  object-position: center;
+  transition: none;
+  background: white;
+}
+
+.project-image:hover img {
+  transform: none;
+}
+
+.project-image span {
+  background: linear-gradient(135deg, rgba(255, 140, 66, 0.2), rgba(255, 215, 0, 0.2));
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px dashed #ff8c42;
+  text-align: center;
+  min-width: 120px;
 }
 
 .project-info {
