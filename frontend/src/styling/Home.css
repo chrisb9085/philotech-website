@@ -5,7 +5,7 @@
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.8s ease-out;
-  padding: 20px;
+  padding: 5px 20px;
 }
 
 .home-container.loaded {
@@ -85,6 +85,24 @@
   transform: translateY(20px);
   animation: fadeInUp 0.5s ease-out 0.45s forwards;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-in-heading {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-in-heading img {
+  height: 200px;
+  width: 300px;
+
+  object-fit: contain;
+  vertical-align: middle;
+  margin-top: -140px;
+  padding: 5px;
 }
 
 .sub-heading {

@@ -40,6 +40,8 @@ function About() {
               <div className="skill-item">QA Testing</div>
               <div className="skill-item">Appium</div>
               <div className="skill-item">Automation Testing</div>
+              <div className="skill-item">TestNG</div>
+              <div className="skill-item">Postman</div>
             </div>
           </div>
 
@@ -55,9 +57,9 @@ function About() {
                 <p>Leading the development of a professional portfolio platform and pursuing entrepreneurial ventures in technological innovation.</p>
               </div>
               <div className="experience-item">
-                <h4> QA Tester (Intern) - TechPhare Dynamic Solutions</h4>
-                <p className="experience-period">May 2025 - Present</p>
-                <p>Testing and debugging a mobile application using Appium and Jira Software to ensure they meet quality standards and user requirements.</p>
+                <h4> QA Automation Engineer (Intern) - TechPhare Dynamic Solutions</h4>
+                <p className="experience-period">May 2025 - August 2025</p>
+                <p>Tested and debugged a mobile application using Appium and a TestNG framework in Java. Also used Jira Software to ensure test cases meet quality standards and user requirements.</p>
               </div>
             </div>
 

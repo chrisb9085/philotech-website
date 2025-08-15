@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import '../styling/Home.css';
 import Portrait2 from '../assets/images/Portrait2.jpg';
+import logo from '../assets/Icons/logo.png';
+import logoIcon from '../assets/Icons/logo-icon.png';
 
 function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -25,11 +27,12 @@ function Home() {
                 />
               </div>
             </div>
-            
             {/* Right side - Content */}
             <div className="content-section">
               {/* Main heading */}
-              <h1 className="main-heading">Welcome to PhiloTech</h1>
+              <h1 className="main-heading">
+                Welcome to <span className="logo-in-heading"><img src={logo} alt="PhiloTech Logo" /></span>
+              </h1>
               <h2 className="sub-heading">Built with purpose. Led by curiosity.</h2>
               
               {/* Navigation buttons */}
