@@ -20,11 +20,24 @@ function Contact() {
             <div className="contact-details">
               <div className="contact-item">
                 <h3>Email</h3>
-                <p>contact@philotech.us.com</p>
+                <p>contact.philotech@gmail.com</p>
               </div>
               <div className="contact-item">
                 <h3>Location</h3>
                 <p>Miami, FL, USA</p>
+              </div>
+              <div className="contact-item">
+                <h3>Social</h3>
+                <div className="social-links">
+                  <a href="https://github.com/chrisb9085" target="_blank" rel="noopener noreferrer" className="social-link">
+                    <i className="fab fa-github"></i>
+                    <span>GitHub</span>
+                  </a>
+                  <a href="https://linkedin.com/in/chrisb9085" target="_blank" rel="noopener noreferrer" className="social-link">
+                    <i className="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
