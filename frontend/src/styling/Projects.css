@@ -96,8 +96,10 @@
 }
 
 .project-image img {
-  width: 175px;
-  height: 175px;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 175px;
+  max-height: 175px;
   border-radius: 12px;
   object-fit: contain;
   object-position: center;
