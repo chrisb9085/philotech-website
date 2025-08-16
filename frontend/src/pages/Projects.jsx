@@ -16,7 +16,7 @@ function Projects() {
     {
       id: 2,
       title: "Neural Network from Scratch",
-      description: "This project is a neural network that is built from scratch using only numpy. It is a simple feedforward neural network that is able to learn the XOR function.",
+      description: "This project is a neural network that is built from scratch using only numpy. It uses a rectified linear activation function as well as a softmax for the final layer, and can also calculate loss.",
       technologies: ["Python", "Numpy"],
       image: nnfs
     }
