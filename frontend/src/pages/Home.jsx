@@ -23,7 +23,6 @@ function Home() {
                 <img 
                   src={Portrait2} 
                   alt="Portrait " 
-                  style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '5px' }}
                 />
               </div>
             </div>
