@@ -13,6 +13,9 @@ body {
   line-height: 1.6;
   background: white;
   min-height: 100vh;
+  /* Remove conflicting display and place-items from index.css */
+  display: block;
+  place-items: initial;
 }
 
 .App {
@@ -42,11 +45,11 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Container for better screen utilization */
+/* Container for better screen utilization - Mobile First */
 .page-container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 15px; /* Reduced padding for mobile */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -56,8 +59,8 @@ html {
 .section {
   background: white;
   border-radius: 0;
-  margin: 15px 0;
-  padding: 30px;
+  margin: 10px 0; /* Reduced margin for mobile */
+  padding: 20px; /* Reduced padding for mobile */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   border-left: 5px solid #ff8c42;
 }
@@ -72,4 +75,22 @@ html {
   --text-dark: #2c3e50;
   --text-light: #34495e;
   --white: #ffffff;
+}
+
+/* Mobile-first responsive design */
+@media (min-width: 768px) {
+  .page-container {
+    padding: 0 30px;
+  }
+  
+  .section {
+    margin: 15px 0;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-container {
+    padding: 0 40px;
+  }
 } 
