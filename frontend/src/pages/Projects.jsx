@@ -11,14 +11,17 @@ function Projects() {
       title: "RunwAI",
       description: "RunwAI is a personal AI stylist that uses images of your own clothing to generate stylish outfits based on inputs like weather, occasion and color preference. Initially started as an Init BUILD project, RunwAI has since evolved into a fully launched site.",
       technologies: ["React", "Flask", "Supabase", "OpenAI's CLIP"],
-      image: runwai
+      image: runwai,
+      github: "https://github.com/chrisb9085/outfit-ai",
+      site: "https://runwai-stylist.vercel.app/login"
     },
     {
       id: 2,
       title: "Neural Network from Scratch",
       description: "This project is a neural network that is built from scratch using only numpy. It uses a rectified linear activation function as well as a softmax for the final layer, and can also calculate loss.",
       technologies: ["Python", "Numpy"],
-      image: nnfs
+      image: nnfs,
+      github:"https://github.com/chrisb9085"
     }
     /*
       id: 3,
@@ -54,6 +57,10 @@ function Projects() {
                     {project.technologies.map((tech, index) => (
                       <span key={index} className="tech-tag">{tech}</span>
                     ))}
+                  </div>
+                  <div className="project-link">
+                    <a href={project.github}>Github</a>
+                    {project.site && <a href={project.site}>Website</a>}
                   </div>
                 </div>
               </div>
