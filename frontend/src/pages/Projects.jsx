@@ -21,7 +21,7 @@ function Projects() {
       description: "This project is a neural network that is built from scratch using only numpy. It uses a rectified linear activation function as well as a softmax for the final layer, and can also calculate loss.",
       technologies: ["Python", "Numpy"],
       image: nnfs,
-      github:"https://github.com/chrisb9085"
+      github:"https://github.com/chrisb9085/nn-from-scratch"
     }
     /*
       id: 3,
@@ -59,8 +59,8 @@ function Projects() {
                     ))}
                   </div>
                   <div className="project-link">
-                    <a href={project.github}>Github</a>
-                    {project.site && <a href={project.site}>Website</a>}
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">Github</a>
+                    {project.site && <a href={project.site} target="_blank" rel="noopener noreferrer">Website</a>}
                   </div>
                 </div>
               </div>
