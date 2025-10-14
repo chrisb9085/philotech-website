@@ -42,6 +42,7 @@ function About() {
               <div className="skill-item">Automation Testing</div>
               <div className="skill-item">TestNG</div>
               <div className="skill-item">Postman</div>
+              <div className="skill-item">Google ADK</div>
             </div>
           </div>
 
@@ -51,6 +52,13 @@ function About() {
             
             <div className="experience-category">
               <h3>Professional Experience</h3>
+              <div className="experience-item">
+                <h4>Coding Tutor - KiberOne</h4>
+                <p className="experience-period">September 2025 - Present</p>
+                <p>Instruct groups of 10-12 kids ages 6-13 on core programming concepts through tools like Scratch, Roblox Studio, and Minecraft Education, building
+                  critical thinking ability, problem solving skills, and confidence for the future.
+                </p>
+              </div>
               <div className="experience-item">
                 <h4>Founder & CEO - PhiloTech</h4>
                 <p className="experience-period">August 2025 - Present</p>
@@ -80,6 +88,8 @@ function About() {
                 <div className="course-item">Calculus I & II</div>
                 <div className="course-item">Computer Architecture</div>
                 <div className="course-item">Discrete Mathematics</div>
+                <div className="course-item">Software Engineering I</div>
+                <div className="course-item">Systems Programming</div>
               </div>
             </div>
 

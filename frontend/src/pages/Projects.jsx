@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import '../styling/Projects.css';
 import runwai from '../assets/images/runwai_logo.png';
 import nnfs from '../assets/images/nn-logo1.jpg';
+import l_quest from '../assets/images/lifequest_logo.png';
 
 
 function Projects() {
@@ -10,7 +11,7 @@ function Projects() {
       id: 1,
       title: "RunwAI",
       description: "RunwAI is a personal AI stylist that uses images of your own clothing to generate stylish outfits based on inputs like weather, occasion and color preference. Initially started as an Init BUILD project, RunwAI has since evolved into a fully launched site.",
-      technologies: ["React", "Flask", "Supabase", "OpenAI's CLIP"],
+      technologies: ["Python", "Javascript", "React", "Flask", "Supabase", "OpenAI's CLIP"],
       image: runwai,
       github: "https://github.com/chrisb9085/outfit-ai",
       site: "https://runwai-stylist.vercel.app/login"
@@ -22,14 +23,15 @@ function Projects() {
       technologies: ["Python", "Numpy"],
       image: nnfs,
       github:"https://github.com/chrisb9085/nn-from-scratch"
-    }
-    /*
+    },
+    {
       id: 3,
-      title: "ProfilePilot",
-      description: "ProfilePilot is a platform that allows users to sync their professional profiles with their resumes. ProfilePilot scans a user's resume and checks for any new or updated information, and then updates the user's profile accordingly. Then, using web automation technology, ProfilePilot automatically updates professional profiles on sites like LinkedIn, Handshake, Indeed, and more.",
-      technologies: ["React", "Flask", "Supabase", "Selenium", "OpenAI's GPT-4o"],
-      image: "Image"
-    */
+      title: "LifeQuest",
+      description: "LifeQuest is your personal gameified AI life coach, designed to motivate you by smartly scheduling tasks and integrating with your personal calendar. It also rewards you with experience points for completing tasks, compete with your friends to see who can hold the longest login streak or reach the higher level!",
+      technologies: ["Python", "Javascript", "React", "Fast API", "Supabase", "Gemini 2.0", "Google ADK", "Google OAuth"],
+      image: l_quest,
+      github: "https://github.com/chrisb9085/agentic-routine"
+    }
   ];
 
   return (
